@@ -8,7 +8,7 @@ import router from './router'
 
 const app = createApp(App)
 
-// console.log(gaga)
+console.log(gaga)
 
 app.use(createPinia())
 app.use(router)
