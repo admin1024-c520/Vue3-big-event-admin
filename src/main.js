@@ -4,6 +4,7 @@ import App from './App.vue'
 import router from './router'
 import pinia from '@/stores/index'
 import '@/assets/main.scss'
+import 'element-plus/dist/index.css'
 
 const app = createApp(App)
 
