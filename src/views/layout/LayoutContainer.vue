@@ -76,7 +76,6 @@ const handleCommand = async (key) => {
             <span>重置密码</span>
           </el-menu-item>
         </el-sub-menu>
-        <el-button text @click="open">退出登录</el-button>
       </el-menu>
     </el-aside>
     <el-container>
