@@ -44,8 +44,8 @@ const onDeleteArticle = (row) => {
       </el-form-item>
       <el-form-item label="发布状态">
         <el-select>
-          <el-option>1</el-option>
-          <el-option>1</el-option>
+          <el-option label="已发布" value="已发布"></el-option>
+          <el-option label="草稿" value="草稿"></el-option>
         </el-select>
       </el-form-item>
       <el-form-item>
